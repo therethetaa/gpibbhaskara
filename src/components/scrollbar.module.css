@@ -1,0 +1,18 @@
+/* For IE, Edge and Firefox */
+.custom-scrollbar {
+  /* -ms-overflow-style: none;  IE and Edge */
+  scrollbar-width: 5px;  /* Firefox */
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 7px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #383636;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgb(100, 100, 100);
+  border-radius: 100px;
+}

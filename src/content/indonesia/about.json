@@ -1,0 +1,40 @@
+{
+  "floating_card": {
+    "title": "Profil Gereja",
+    "body": "Favored One",
+    "button_label": "JELAJAHI"
+  },
+  "motto": {
+    "title": "#The Favored One",
+    "body": "Didirikan pada tahun 2019, The Favored One merupakan perusahaan direct selling pertama yang berbasis ekosistem teknologi digital."
+  },
+  "section_1": {
+    "title": "VISI",
+    "body": "Memberikan layanan dan kepuasaan dalam bidang kecantikan wajah, serta meningkatkan nilai produk, dalam ataupun luar negeri, agar dapat bersaing dengan produk Global.",
+    "button_label": "Selanjutnya"
+  },
+  "section_2": {
+    "title": "MISI",
+    "body": "Memberikan kesempatan yang adil kepada setiap orang untuk memulai bisnis mandiri, serta mencapai harapan dan impiannya.",
+    "button_label": "Selanjutnya"
+  },
+  "company_legality": {
+    "title": "LEGALITAS PERUSAHAAN",
+    "left_section": [
+      "KEPUTUSAN MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA",
+      "AHU-0004304.AH.01.01 TAHUN 2023",
+      "PT BERKAT IMAN HIDUP"
+    ],
+    "middle_section": [
+      "NOMOR INDUK BERUSAHA",
+      "2501230018208",
+      "PT BERKAT IMAN HIDUP"
+    ],
+    "right_section": [
+      "SURAT IZIN USAHA PERDAGANGAN (SIUP) :",
+      "NOMOR INDUK BERUSAHA :",
+      "25012300182080001",
+      "NAMA PERUSAHAAN : PT BERKAT IMAN HIDUP"
+    ]
+  }
+}

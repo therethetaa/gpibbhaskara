@@ -1,0 +1,40 @@
+{
+  "floating_card": {
+    "title": "About",
+    "body": "Favored One",
+    "button_label": "DISCOVER"
+  },
+  "motto": {
+    "title": "#The Favored One",
+    "body": "Founded in 2019, Favored one is the first direct selling company that has its own digital technology ecosystem."
+  },
+  "section_1": {
+    "title": "VISION",
+    "body": "Provide service and satisfaction in facial beauty, as well as increase the value of selling products, domestic or foreign, in order to compete with global products",
+    "button_label": "Next"
+  },
+  "section_2": {
+    "title": "MISSION",
+    "body": "Give everyone a fair chance to start an independent business, and achieve their hopes and dreams.",
+    "button_label": "Next"
+  },
+  "company_legality":{
+    "title":"COMPANY LEGALITY",
+    "left_section":[
+      "KEPUTUSAN MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA",
+      "AHU-0004304.AH.01.01 TAHUN 2023",
+      "PT BERKAT IMAN HIDUP"
+    ],
+    "middle_section": [
+      "NOMOR INDUK BERUSAHA",
+      "2501230018208",
+      "PT BERKAT IMAN HIDUP"
+    ],
+    "right_section": [
+      "SURAT IZIN USAHA PERDAGANGAN (SIUP) :",
+      "NOMOR INDUK BERUSAHA :",
+      "25012300182080001",
+      "NAMA PERUSAHAAN : PT BERKAT IMAN HIDUP"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "floating_card": {
+    "title": "Contact Us",
+    "body": "The Favored One",
+    "button_label": "More"
+  },
+  "section_1": {
+    "title": "OUR CONTACT",
+    "body": [
+      "Email : cs@thefavored-one.com",
+      "Phone : 62811-3056-7257 ",
+      "Location : Rungkut Asri XII /18B. Surabaya, East Java 60293"
+    ],
+    "button_label": "Send a Message"
+  }
+}

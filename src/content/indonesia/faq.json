@@ -1,0 +1,281 @@
+{
+  "umum_1": {
+    "question": "Bagaimana cara melakukan reset password?",
+    "answer": [
+      "Langkah-langkah melakukan reset password pada web The Favored One:", 
+      "",
+      " 1. Buka alamat web The Favored One",
+      " 2. Klik forgot password.",
+      " 3. Ketik username dan email yg terdaftar di sistem",
+      " 4. New password akan di kirim ke email yg terdaftar.",
+      " 5. Pastikan double check inbox/spam/junk.",
+      " 6. Password dapat di ketik ulang ke web The Favored One, tanpa copy paste."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_2": {
+    "question": "Bagaimana cara mengganti password?",
+    "answer": [
+      " Untuk mengganti password bapak/ibu bisa login ke akun The Favored One. Lalu ke Menu > Changes Password .", 
+      "Untuk syarat password:",
+      "- Change Password / Ubah Password memiliki persyaratan minimal 8 digit",
+      "- Di awal dan di akhir kata pastikan tidak menggunakan spasi",
+      "- Setelah perubahan yang dilakukan, user akan menerima email bahwa password telah berhasil di update ",
+      "",
+      "Penjelasan password:",
+      "Login dan password di kirim ke email pendaftaran.",
+      "Password ini di gunakan pada saat awal login ke akun member The Favored One."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_3": {
+    "question": "Bagaimana jika saya lupa security password?",
+    "answer": [
+      "- Sampai sekarang tidak digunakan. Alamat EMAIL tidak boleh salah ketik",
+      "- Password akan di kirimkan ke email yg terdaftar. Password dr email pastikan di ketik ulang, jangan di copy paste."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_4": {
+    "question": "Saya sudah reset password via email tetapi kenapa tetap tidak bisa masuk ke homepage?",
+    "answer": [
+      "- Pastikan password yang di ketik sesuai huruf besar kecilnya, dan di ketik ulang. Tanpa copy paste."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_5": {
+    "question": "Bagaimana cara mengganti nomor telpon di sistem?",
+    "answer": [
+      "- Bisa diubah dengan menuju user profile > nomor hp"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_6": {
+    "question": "Apakah bisa melakukan input nomor telepon luar indonesia?",
+    "answer": [
+      "- Saat ini member tidak bisa menggunakan nomor handphone luar negeri (international) "
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_7": {
+    "question": "Bagaimana cara mengganti email?",
+    "answer": [
+      "- Untuk mengganti email yang terdaftar dapat menghubungi CS The Favored One di nomor ... ... .... "
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_8": {
+    "question": "Bagaimana cara melakukan order barang?",
+    "answer": [
+      "- Berikut link untuk panduan order barang (membership upgrade dan register) ",
+      "  Tutorial register member - ",
+      "  Tutorial upgrade -"
+
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_9": {
+    "question": "Kenapa saya tidak mendapat bonus pairing?",
+    "answer": [
+      "- Untuk terjadi pairing terjadi keseimbangan apabila ada 1 user di sisi kanan maupun 1 user di kiri dengan catatan username tersebut pairingnya masih aktif di sistem."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_10": {
+    "question": "Masa pairing saya sudah expired, apakah tetap dapat bonus?",
+    "answer": [
+      "- Jika masa pairing sudah expired, bapak ibu tetap dapat bonus sponsor jika mensponsori new member, tetapi jika terjadi pairing bapak/ibu tidak mendapatkan bonus pairing."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_11": {
+    "question": "Bagaimana cara memperpanjang masa pairing?",
+    "answer": [
+      "- masa pairing berlaku satu Tahun dari tanggal yang ditentukan perusahaan"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_12": {
+    "question": "Apakah ada saldo yang ditahan perusahaan?",
+    "answer": [
+      "- Saldo Bonus akan masuk setelah selesai perhitungan, dan dapat di withdraw sewaktu-waktu"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_13": {
+    "question": "Bagaimana cara cek sponsor kita?",
+    "answer": [
+      "- Untuk cek sponsor bapak/ibu bisa ke Menu > Edit Profile. Scroll di bawah akan ada sponsor dari akun tersebut."
+    ],
+    "button_label": "Selengkapnya"
+  },
+
+
+  "bonus_faq_1": {
+    "question": "Berapa lama bonus masuk ke rekening?",
+    "answer": [
+      "Untuk bonus h+1 setelah transaksi dan perlu di withdraw",
+      "Jika bapak/ibu memilih withdraw bonus akan masuk h+2 hari kerja dari tanggal bonus masuk.",
+      "Setiap bonus dikenakan biaya admin penarikan tergantung biaya bank dan maksimal sebesar Rp. 20.000",
+      "Serta potongan pajak sesuai dengan peraturan perundangan yang berlaku."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_2": {
+    "question": "Bagaimana cara perhitungan pajak withdraw?",
+    "answer": [
+      "Berikut detail perhitungan pajak:",
+      "Lihat apakah member punya NPWP atau tidak?",
+      "Jika tidak punya NPWP atau jenis kelamin: Wanita menikah maka tidak ada potongan PTKP.",
+      "Jika ada NPWP, maka ada potongan PTKP",
+      "Besarnya PTKP adalah Rp 4,5 juta per bulan",
+      "Jika Jenis Kelamin: Pria, Menikah dan K0, PTKP tambah 375.000",
+      "Jika ada tambahan anak 1 maka tambahan PTKP 375.000, maksimal 3 anak.",
+      "Bonus yang di hitung untuk pajak adalah bonus gross. (BONUS-AUTOMAINTENANCE)",
+      "DPP = (Jumlah bonus di point no.5 x 50%) – PTKP",
+      "PTKP di hitung per bulan.",
+      "Tarif = Akumulasi DPP dari 1 Jan setiap tahun sampai akhir tahun tgl 31 Des.",
+      "Tarif :",
+      "- 0 – 50 juta = 5%",
+      "- > 50 juta – 250 juta = 15%",
+      "- > 250 juta – 500 juta = 25%",
+      "- > 500 juta = 30%",
+      "Jika tidak ada NPWP maka hasil di poin j akan di tambah 20%."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_3": {
+    "question": "Apakah bisa ditarik separuh nilai bonus yang diambil saat melakukan withdraw?",
+    "answer": [
+      "Uang yang diwithdraw hanya bisa ditarik penuh dan tidak bisa separuh nilai bonus"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_4": {
+    "question": "Apakah wajib mengisi NPWP?",
+    "answer": [
+      "Untuk NPWP optional, jika ada lebih baik di isi karena akan menentukan pajak yang akan dipotong pada saat withdraw."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_5": {
+    "question": "kenapa pesan email dan bonus yang diterima tidak sesuai?",
+    "answer": [
+      "Untuk bonus The Favored One dapat di ambil semuanya 100% ke saldo anda",
+      "Sedangkan info email menginformasikan total bonusnya."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_6": {
+    "question": "Bagaimana cara cek detail bonus?",
+    "answer": [
+      " Untuk mengecek detail bonus bisa login ke akun bapak/ibu, lalu pilih Menu > Bonus > Rincian Bonus, dan sesuaikan dengan tanggalnya."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_7": {
+    "question": "Bagaimana cara mencairkan uang ke rekening?",
+    "answer": [
+      " Untuk mencairkan uang ke rekening bapak/ibu adalah sebagai berikut:",
+      "Dapat melakukan login ke akun The Favored One milik bapak/ibu.",
+      "Pada halaman home akun profile The Favored One bapak/ibu bisa update rekening bank dan nanti ada ","validasi rekening di email bapak/ibu ",
+      "setelah validasi maka masu menu transaksi pilih withdraw.",
+      "Lalu ketik jumlah yang ingin di withdraw ke rekening yang terdaftar."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_8": {
+    "question": "Bagaimana cara cek bonus saya dari awal join?",
+    "answer": [
+      "Untuk cek total bonus bapak/ibu bisa di menu dashboard", 
+      "untuk detail bonus dapat dilihat di menu bonus > rincian bonus"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "membership_faq_1": {
+    "question": "Berapa biaya penghibahan akun/titik username?",
+    "answer": [
+      " Untuk biaya penghibahan akun di kenakan biaya Rp. 10.000.000,-/akun",
+      " Username tidak dapat diubah"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "membership_faq_2": {
+    "question": "Bagaimana prosedur pengunduran diri member The Favored One?",
+    "answer": [
+      "Mengisi form pengunduran diri",
+      "Mengajukan ke management via customer service untuk di proses",
+      "Setelah proses pengajuan pengunduran diri disetujui maka yang bersangkutan bukan lagi merupakan bagian dari member Favored One"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "membership_faq_3": {
+    "question": "Untuk member, sekali untuk seumur hidup, jika tidak aktif melakukan rekrut new member,     tidak masalah?",
+    "answer": [
+      "Harus ada pembelian produk yang diperbarui pada tahun tersebut untuk mengaktifkan status aktif membernya"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "membership_faq_4": {
+    "question": "Apakah kalau account sudah di suspend karena undercutting, saya dapat mengakses account saya?",
+    "answer": [
+      "Tidak, dengan ini maka bisnis Anda dengan The Favored One terputus, dan Anda kehilangan seluruh hak berbisnis baik secara bonus, reward dan lain lain. Dan tidak bisa kembali berbisnis dengan The Favored One. Dan potensi untuk di laporkan secara hukum"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_1": {
+    "question": "Apakah produk The Favored One di buat di korea seutuhnya? bukan packaging di Indonesia?",
+    "answer": [
+      "Produk The Favored One merupakan 100% made in korea dan tidak ada repacking di manapun."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_2": {
+    "question": "Berapa takaran pemakaian terbaik untuk membantu perbaikan terhadap kecantikan?",
+    "answer": [
+      "minimal 1 minggu 2x penggunaan untuk hasil lebih maksimal"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_3": {
+    "question": "Apakah masker BB Glow itu asli?",
+    "answer": [
+      "Iya asli"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_4": {
+    "question": "Apakah aman di gunakan lebih dari 1x?",
+    "answer": [
+      "Produk aman digunakan lebih dari 1x"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_5": {
+    "question": "Kenapa di korea produk BB Glow tidak ada?",
+    "answer": [
+      "untuk produk BB glow beauty mask dan Le Acquashine Water yang memegang hak edar ada di kami"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_6": {
+    "question": "Apakah ada efek samping dalam penggunaan jangka panjang?",
+    "answer": [
+      "Tidak ada efek samping penggunaan jangka panjang asal sesuai dengan petunjuk pemakaian"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_7": {
+    "question": "Apakah bisa ada efek , kalau setelah sering digunakan, dan selanjutnya tidak digunakan lagi?",
+    "answer": [
+      "Tidak ada efek, masker dan serum aman"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq":"BONUS FAQ",
+  "membership_faq":"KEANGGOTAAN FAQ",
+  "umum_faq":"UMUM FAQ",
+  "product_faq":"PRODUCT FAQ",
+
+  "closure":"\"Kecantikan itu bisa menumbuhkan cinta. Kecantikan itu anugerah. Kulit cerah, kulit sehat, kulit cantik itu Inventasi. Bagaimana dengan Anda?\""
+}

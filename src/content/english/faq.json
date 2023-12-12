@@ -1,0 +1,282 @@
+{
+  "umum_1": {
+    "question": "How to reset password?",
+    "answer": [
+      "Steps to Reset Password on TheFavoredone Web:", 
+      "",
+      " 1. Open TheFavoredone web address",
+      " 2. Click Forgot Password.",
+      " 3. Type the username and email registered in the system",
+      " 4. New passwords will be sent to the registered email.",
+      " 5. Make sure the double check inbox/spam/junk.",
+      " 6. Passwords can be re -typed on the TheFavoredone web, without copy and paste."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_2": {
+    "question": "How to change password?",
+    "answer": [
+      " To change your password, you can log in to the TheFavoredone account. Then to the menu> changes password.", 
+      "For password requirements:",
+      "- Change Password / Change Password has a minimum requirement of 8 digits",
+      "- At the beginning and at the end of the word make sure you don't use spaces",
+      "- After the changes made, the user will receive an email that the password has been successfully updated",
+      "",
+      "Password explanation:",
+      "Login and password are sent to the registration email.",
+      "This password is used at the beginning of logging in to the Member TheFavoredone account."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_3": {
+    "question": "how if I forget security password?",
+    "answer": [
+      "- Until now not used. Email address should not be typed",
+      "- The password will be sent to the registered email. Password from the email make sure to re -type, do not copy paste."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_4": {
+    "question": "I have reset the password via email but Why still can't enter the homepage?",
+    "answer": [
+      "Make sure the password is typed according to the uppercase letters, and re -type. Without copy and paste."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_5": {
+    "question": "How to change the telephone number on system?",
+    "answer": [
+      "- Can be changed by going to the user profile> mobile number"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_6": {
+    "question": "Can you do the telephone number input outside Indonesia?",
+    "answer": [
+      "- At present the members cannot use foreign mobile numbers (international) and then log in with mobile number that has been previously registered"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_7": {
+    "question": "How to change email?",
+    "answer": [
+      "- To change the registered email, you can contact CS TheFavoredone at ... ... ...."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_8": {
+    "question": "How do I order goods?",
+    "answer": [
+      "- The following is a link for goods order guidelines (membership upgrades and registers)",
+      "  Member Register Tutorial - ",
+      "  Upgrade Tutorial  -"
+
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_9": {
+    "question": "Why am I not getting a pairing bonus?",
+    "answer": [
+      "- To occur there is a balance if there is 1 user on the right side or 1 user on the left with the record of the username, the pairing is still active in the system."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_10": {
+    "question": "My pairing period is already expired, is it still get a bonus?",
+    "answer": [
+      "- If the pairing period is expired, you still get a sponsor bonus if you sponsor the new member, but if there is a pairing ladies and gentlemen do not get a pairing bonus."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_11": {
+    "question": "How to extend the pairing period?",
+    "answer": [
+      "- The pairing period is valid one year from the company specified"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_12": {
+    "question": "Is there a balance held by the company?",
+    "answer": [
+      "- Bonus balance will enter after the calculation is finished, and can be withdrawing at any time"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "umum_13": {
+    "question": "How do I check our sponsors?",
+    "answer": [
+      "- To check your sponsors, you can go to the menu> Edit Profile. Scroll below there will be a sponsor from the account."
+    ],
+    "button_label": "Selengkapnya"
+  },
+
+
+  "bonus_faq_1": {
+    "question": "How long does the bonus go to the account?",
+    "answer": [
+      "For H+1 bonuses after transactions and need to be withdrawing",
+      "If you choose to withdraw, the bonus will enter H+2 working days from the bonus entry date.",
+      "Each bonus is charged an admin fee depending on the bank fee and a maximum of Rp. 20,000",
+      "And tax discounts in accordance with applicable laws and regulations."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_2": {
+    "question": "How do you calculate the withdrawal tax?",
+    "answer": [
+      "The following detailed tax calculation use Indonesia Tax:",
+      "See whether members have NPWP or not?",
+      "If you do not have a NPWP or Gender: Women get married then there are no PTKP pieces.",
+      "If there is a NPWP, then there is a PTKP discount",
+      "The amount of PTKP is IDR 4.5 million per month",
+      "If Gender: Male, Married And K0, PTKP Add 375,000",
+      "If there is an additional child 1 then the additional PTKP 375,000, a maximum of 3 children.",
+      "The bonus calculated for tax is a gross bonus.",
+      "DPP = (Number of Bonuses in Point No.5 x 50%) - PTKP",
+      "PTKP is calculated per month.",
+      "Tariff = accumulation of DPP from 1 Jan every year to the end of the year 31 Dec.",
+      "Rates:",
+      "- 0 - 50 million = 5%",
+      "-> 50 million - 250 million = 15%",
+      "-> 250 million - 500 million = 25%",
+      "-> 500 million = 30%",
+      "If there is no NPWP then the results in Point J will be added 20%."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_3": {
+    "question": "Can it be withdrawn half the bonus value taken while doing withdrawing?",
+    "answer": [
+      "The money that was dipedrawan could only be withdrawn and could not be half the bonus value"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_4": {
+    "question": "Is it required to fill in NPWP?",
+    "answer": [
+      "For optional NPWP, if there is better in filling because it will determine the tax that will be deducted when withdrawing."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_5": {
+    "question": "why the email and bonus message received it is not in accordance with?",
+    "answer": [
+      "For the Favoredone bonus, you can take it all 100% to your balance",
+      "While email info informs the total bonus."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_6": {
+    "question": "How do I check the bonus details?",
+    "answer": [
+      "To check the details of the bonus, you can log into your account, then select the Bonus> Bonus> Bonus Details, and adjust the date."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_7": {
+    "question": "How to withdraw money to an account?",
+    "answer": [
+      "To withdraw money to your account is as follows:",
+      "Can log in to the Favoradenone account owned by you.",
+      "On the home page of thefavoredone profiles, you can update the bank account and later there will be an account validation in your email",
+      "After the validation, the transaction menu select withdraw.",
+      "Then type the amount you want to withdraw to the registered account."
+     
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq_8": {
+    "question": "How do I check my bonus from the beginning of the join?",
+    "answer": [
+      "To check the total bonus, Mr/Mrs can be in the dashboard menu",
+      "For bonus details can be seen in the Bonus menu> Bonus Details"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "membership_faq_1": {
+    "question": "How much does the account/username cost?",
+    "answer": [
+      "For the cost of accounting the account is charged Rp. 10,000,000/Account",
+      "Username cannot be changed"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "membership_faq_2": {
+    "question": "How is the resignation procedure for members The Favored One?",
+    "answer": [
+      " Fill out the resignation form",
+ "Submit to management via customer service for processing",
+ "After the resignation submission process is approved, the person concerned is no longer a part of the Favored One member"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "membership_faq_3": {
+    "question": "For members, once for a lifetime, if inactive recruit new members,no problem?",
+    "answer": [
+      "There must be a product purchase that was updated in that year to activate the active status of its members"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "membership_faq_4": {
+    "question": "If the account has been suspended because Undercutting, can I access my account?",
+    "answer": [
+      "No, with this, your business with Thefavoredone is cut off, and you lose all the right to do business both bonuses, rewards and others. And can't go back to doing business with thefavoredone. And the potential to be reported legally"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_1": {
+    "question": "Is thefavoredone product made in Korea completely? Not Packaging in Indonesia?",
+    "answer": [
+      "Thefavoredone products are 100% made in Korea and there is no repacking anywhere."
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_2": {
+    "question": "What is the best dose to help improve beauty?",
+    "answer": [
+      "at least 1 week 2x usage for maximum results"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_3": {
+    "question": "Is the BB Glow mask genuine?",
+    "answer": [
+      "Yes, that is genuine"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_4": {
+    "question": "Is it safe to use more than 1x?",
+    "answer": [
+      "Safe products used more than 1x"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_5": {
+    "question": "Why is there no BB Glow product in Korea?",
+    "answer": [
+      "For BB Glow Beauty Mask and Le Acquashine Water products that hold our distribution rights in us"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_6": {
+    "question": "Are there any side effects in long -term use?",
+    "answer": [
+      "There are no side effects of long -term use in accordance with the instructions for use"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "product_faq_7": {
+    "question": "Can there be an effect, if after use often, and then not used anymore?",
+    "answer": [
+      "There are no effects, mask and serum safe"
+    ],
+    "button_label": "Selengkapnya"
+  },
+  "bonus_faq":"BONUS FAQ",
+  "membership_faq":"MEMBERSHIP FAQ",
+  "umum_faq":"GENERAL FAQ",
+  "product_faq":"PRODUCT FAQ",
+
+  "closure":"\"Kecantikan itu bisa menumbuhkan cinta. Kecantikan itu anugerah. Kulit cerah, kulit sehat, kulit cantik itu Inventasi. Bagaimana dengan Anda?\""
+}
