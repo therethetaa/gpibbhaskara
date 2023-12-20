@@ -28,22 +28,22 @@ export default function UnitMisioner({ language }) {
         </Head>
       )}
       <main className="min-h-screen">
-        <div className="  md:w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto dark:bg-gray-200 bg-slate-300 ">
-          <picture className="special-image ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[200px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
+        <div className="  md:w-12/12 max-sm:w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto dark:bg-gray-200 bg-slate-300 ">
+          <picture className="special-image max-sm:ml-3 ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[600px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
             <img
               src="./img18.jpg "
               loading=" eager"
               height={600}
               width={600}
-              className=" mt-10 rounded-md shadow-lg shadow-black"
+              className=" mt-10 max-sm:ml-3 rounded-md shadow-lg shadow-black"
               draggable="false"
               style={{ opacity: 1 }}
             />
           </picture>
-          <div className=" md:w-8/12 ml-36 -mt-20  flex overflow-hidden  md:h-min dark:bg-gray-500 bg-slate-600 ">
+          <div className=" md:w-8/12 max-sm:ml-10 ml-36 -mt-9  flex overflow-hidden  md:h-min dark:bg-gray-500 bg-slate-600 ">
             <div className="h-full p-60 ml-16 md:px-1 md:pb-72 relative ">
               <div className=" justify-start items-start  h-full relative">
-                <p className=" text-5xl mr-10 mt-40 uppercase font-serif text-white ">
+                <p className=" text-5xl max-sm:text-2xl max-sm:-ml-72 max-sm:mt-20 mr-10 mt-40 uppercase font-serif font-semibold text-white ">
                   Unit Misioner
                 </p>
               </div>
@@ -54,19 +54,19 @@ export default function UnitMisioner({ language }) {
         {/* --------------------------- Second Screen -------------------------- */}
         <div className="min-h-screen flex flex-col items-center justify-center my-14">
           <div
-            className="text-4xl dark:text-gray-600 text-gray-700 -mt-32"
+            className="text-4xl dark:text-gray-600 text-gray-700 max-sm:-mt-20 -mt-32"
             data-aos="fade-down"
           >
             <b>{content?.motto.title}</b>
           </div>
           <div
-            className="text-xm text-center dark:text-gray-400 text-gray-500 mx-10 ml-48 mr-48 mt-2 animate__animated"
+            className="text-xm text-center dark:text-gray-400 text-gray-500 mx-10 max-sm:ml-10 max-sm:mr-10 ml-48 mr-48 mt-2 animate__animated"
             data-aos="fade-up"
           >
             {content?.motto.body}
           </div>
           <br></br>
-          <div className="text-4xl text-center dark:text-white text-gray-600 font-semibold mt-10">
+          <div className="text-4xl max-sm:text-3xl text-center dark:text-white text-gray-600 font-semibold mt-10">
             <p
               data-aos="fade-left"
               data-aos-delay="0"
@@ -77,39 +77,39 @@ export default function UnitMisioner({ language }) {
               <Link href="/pelkat-pa">
                 <div className="col" data-aos="fade-right" data-aos-delay="0">
                   <img
-                    className=" cursor-pointer -ml-5 hover"
+                    className=" cursor-pointer max-sm:ml-3 -ml-5 hover"
                     src="/pelkat-pa.png"
-                    width={120}
-                    height={120}
+                    width={100}
+                    height={100}
                   />
                 </div>
               </Link>
               <Link href="/pelkat-pt">
                 <div
-                  className="-mt-32 ml-28 "
+                  className="-mt-28 ml-28 max-sm:ml-32 "
                   data-aos="fade-right"
                   data-aos-delay="0"
                 >
                   <img
                     className=" cursor-pointer"
                     src="/pelkat-pt.png"
-                    width={120}
-                    height={120}
+                    width={100}
+                    height={100}
                   />
                 </div>
               </Link>
 
               <Link href="/pelkat-gp">
                 <div
-                  className="-mt-36 ml-60"
+                  className="-mt-28 ml-60"
                   data-aos="fade-right"
                   data-aos-delay="0"
                 >
                   <img
                     className=" cursor-pointer"
                     src="/pelkat-gp.png"
-                    width={120}
-                    height={120}
+                    width={100}
+                    height={100}
                   />
                 </div>
               </Link>
@@ -117,43 +117,43 @@ export default function UnitMisioner({ language }) {
               <div className="col mt-5">
                 <Link href="/pelkat-pkp">
                   <div
-                    className="-ml-12"
+                    className="-ml-8 max-sm:-ml-3"
                     data-aos="fade-left"
                     data-aos-delay="0"
                   >
                     <img
                       className=" cursor-pointer"
                       src="/pelkat-pkp.png"
-                      width={150}
-                      height={150}
+                      width={120}
+                      height={120}
                     />
                   </div>
                 </Link>
                 <Link href="/pelkat-pkb">
                   <div
-                    className="-mt-36 ml-24"
+                    className="-mt-32 ml-24 max-sm:ml-28"
                     data-aos="fade-left"
                     data-aos-delay="0"
                   >
                     <img
                       className=" cursor-pointer"
                       src="/pelkat-pkb.png"
-                      width={140}
-                      height={140}
+                      width={120}
+                      height={120}
                     />
                   </div>
                 </Link>
                 <Link href="/pelkat-pklu">
                   <div
-                    className="-mt-36 ml-60"
+                    className="-mt-28 ml-60"
                     data-aos="fade-left"
                     data-aos-delay="0"
                   >
                     <img
                       className=" cursor-pointer"
                       src="/pelkat-pklu.png"
-                      width={140}
-                      height={140}
+                      width={120}
+                      height={120}
                     />
                   </div>
                 </Link>

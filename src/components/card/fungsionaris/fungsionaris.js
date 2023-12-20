@@ -20,8 +20,9 @@ const CardContent = ({
         />
       ) : null}
       <div
-        className="w-full h-80 mb-10 xl:hidden lg:hidden flex justify-center border border-wood-cream rounded-xl bg-cover bg-center"
+        className="w-full h-80 mb-10 xl:hidden lg:hidden flex justify-center shadow-lg dark:shadow-black shadow-gray-500 rounded-xl bg-cover bg-center"
         style={{ backgroundImage: `url(${imgPath})` }}
+        data-aos="zoom-in"
       />
       <div className="w-full">
         <div

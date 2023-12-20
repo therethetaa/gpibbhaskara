@@ -41,132 +41,132 @@ const CardContent = ({
         />
       ) : null}
       <div
-        className="w-full h-80 mb-10 xl:hidden lg:hidden flex justify-center border border-wood-cream rounded-xl bg-cover bg-center"
+        className="w-full h-80 mb-10 xl:hidden lg:hidden flex justify-center shadow-lg dark:shadow-black shadow-gray-500  rounded-xl bg-cover bg-center"
         style={{ backgroundImage: `url(${imgPath})` }}
       />
       <div className="w-full">
         <div
-          className={`text-3xl text-${align} dark:text-white text-gray-600  font-semibold`}
+          className={`text-4xl text-${align} dark:text-white text-gray-700  font-semibold`}
           data-aos="fade-down"
         >
           {title}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-5 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           <strong>{content1} </strong>
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content2}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           <strong> {content3} </strong>
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content4}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           <strong>{content5} </strong>
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content6}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           <strong>{content7} </strong>
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content8}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           <strong>{content9} </strong>
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content10}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           <strong>{content11} </strong>
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content12}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content13}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           <strong>{content14}</strong>
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content15}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content16}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content17}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content18}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content19}
         </div>
         <div
-          className={`mt-2 text-base text-${align} dark:text-gray-400 text-gray-700`}
+          className={`mt-2 max-sm:text-lg text-base text-${align} dark:text-gray-400 text-gray-700`}
           data-aos="fade-up"
         >
           {content20}

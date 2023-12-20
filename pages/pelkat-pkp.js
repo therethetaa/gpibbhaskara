@@ -27,22 +27,22 @@ export default function PelkatPkp({ language }) {
         <link rel="icon" href="/pelkat-pkp.png" />
       </Head>
       <main className="min-h-screen">
-        <div className="  md:w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto bg-slate-300 ">
-          <picture className="special-image ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[200px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
+        <div className="  md:w-12/12 max-sm:w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto bg-slate-300 ">
+          <picture className="special-image max-sm:ml-3 ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[200px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
             <img
               src="./img13.jpg "
               loading=" eager"
               height={600}
               width={600}
-              className=" mt-10 rounded-md shadow-lg shadow-black"
+              className=" mt-10 max-sm:ml-3 rounded-md shadow-lg shadow-black"
               draggable="false"
               style={{ opacity: 1 }}
             />
           </picture>
-          <div className=" md:w-8/12 ml-36 -mt-20  flex overflow-hidden  md:h-min bg-slate-600 ">
+          <div className=" md:w-8/12 max-sm:ml-10 ml-36 -mt-16  flex overflow-hidden  md:h-min bg-slate-600 ">
             <div className="h-full p-60 ml-16 md:px-1 md:pb-72 relative ">
-              <div className=" justify-start items-start  h-full relative">
-                <p className=" text-6xl mr-10 mt-40 uppercase font-serif text-white ">
+              <div className=" justify-start items-start  h-fcull relative">
+                <p className=" text-6xl max-sm:text-3xl max-sm:-ml-72 max-sm:mt-28 mr-10 mt-40 uppercase font-serif font-semibold text-white ">
                   Pelkat PKP
                 </p>
               </div>
@@ -110,7 +110,7 @@ export default function PelkatPkp({ language }) {
               content16={content?.section_2.body10}
               content17={content?.section_2.body11}
               buttonText={content?.section_2.button_label}
-              imgPath={"./img13.jpg"}
+              imgPath={"./pelkat-pkp.png"}
               align="left"
             />
             <div

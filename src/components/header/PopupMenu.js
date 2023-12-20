@@ -8,7 +8,7 @@ const PopupMenu = ({ open, setOpen }) => {
   if (open) {
     return (
       <div
-        className="xl:hidden fixed z-50 w-full h-full bg-neutral-900 top-20"
+        className="xl:hidden fixed z-50 w-full h-full bg-slate-800 top-20"
         data-aos="fade-left"
       >
         <div className="flex flex-col items-end gap-2">
@@ -21,7 +21,7 @@ const PopupMenu = ({ open, setOpen }) => {
                 legacyBehavior
               >
                 <div
-                  className="w-full cursor-pointer py-1 text-xl text-gray-200 hover:text-wood-cream hover:border-wood-cream flex flex-col items-end"
+                  className="w-full cursor-pointer py-1 text-xl text-gray-200 hover:text-gray-500 hover:border-wood-cream flex flex-col items-end"
                   onClick={() => setOpen(false)}
                 >
                   <a className="px-4 uppercase">{menu.name}</a>

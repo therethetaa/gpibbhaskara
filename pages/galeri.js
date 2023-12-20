@@ -27,22 +27,22 @@ export default function Home({ language }) {
       </Head>
 
       <main className=" min-h-screen">
-        <div className="  md:w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto dark:bg-gray-200 bg-slate-300 ">
-          <picture className="special-image ml-60 mr-3  md:px-4   md:py-0 lg:p-0 w-full max-w-[200px] md:max-w-[200px] lg:max-w-[280px] active-hover h-auto transition-all duration-500">
+        <div className="w-12/12 flex justify-center items-center overflow-hidden  h-[75vh] lg:h-auto dark:bg-gray-200 bg-slate-300">
+          <picture className="special-image ml-10 lg:ml-60 mr-3  lg:px-4  lg:py-0 lg:p-0 w-full max-w-[150px] md:max-w-[200px] lg:max-w-[280px] active-hover h-auto transition-all duration-500">
             <img
               src="./gpib-bhaskara.jpg "
               loading=" eager"
               height={200}
               width={250}
-              className=" mt-14 rounded-lg shadow-lg shadow-black"
+              className=" mt-14 -ml-3 rounded-lg shadow-lg shadow-black"
               draggable="false"
               style={{ opacity: 1 }}
             />
           </picture>
-          <div className=" md:w-8/12 ml-36 -mt-20 -mr-10  flex overflow-hidden  md:h-min dark:bg-gray-500 bg-slate-600 ">
-            <div className="h-full p-60 ml-16 md:px-1 md:pb-72 relative ">
+          <div className=" lg:w-8/12 w-60 ml-1 lg:ml-36 -mt-5 lg:-mt-20 -mr-10  flex overflow-hidden  lg::h-min dark:bg-gray-500 bg-slate-600 ">
+            <div className="h-full p-60 -ml-44 lg:ml-16 lg:px-1 lg:pb-72 relative ">
               <div className=" justify-start items-start  h-full relative">
-                <p className=" text-5xl text-white -mr-10 mt-40 uppercase font-serif">
+                <p className=" lg:text-5xl text-3xl mt-16 -ml-14 -mr-10 lg:mt-40 uppercase font-serif font-semibold text-white">
                   Galeri
                 </p>
               </div>

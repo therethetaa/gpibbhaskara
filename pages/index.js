@@ -26,38 +26,35 @@ export default function Home({ language }) {
         <title>GPIB Bhaskara Sby</title>
         <link rel="icon" href="/logo-gpib-new.png" />
       </Head>
-
       <main className=" min-h-screen">
-        <section className="  ">
-          <div className="  md:w-12/12 flex justify-center items-center overflow-hidden max-sm:w-21/12 h-[75vh] md:h-auto dark:bg-gray-200 bg-slate-300">
-            <picture className="special-image max-sm:ml-10 ml-60 mr-3  md:px-4  md:py-0 lg:p-0 w-full max-w-[150px] md:max-w-[200px] lg:max-w-[280px] active-hover h-auto transition-all duration-500">
-              <img
-                src="./gpib-bhaskara.jpg "
-                loading=" eager"
-                height={200}
-                width={250}
-                className=" mt-14 rounded-lg shadow-lg shadow-black"
-                draggable="false"
-                style={{ opacity: 1 }}
-              />
-            </picture>
-            <div className=" md:w-8/12 max-sm:w-60 max-sm:ml-1 ml-36 -mt-20 -mr-10  flex overflow-hidden  md:h-min dark:bg-gray-500 bg-slate-600 ">
-              <div className="h-full p-60 max-sm:-ml-44 ml-16 md:px-1 md:pb-72 relative ">
-                <div className=" justify-start items-start  h-full relative">
-                  <p className=" text-5xl max-sm:text-3xl max-sm:mt-16 -ml-14 -mr-10 mt-40 uppercase font-serif font-semibold text-white">
-                    GPIB Bhaskara Surabaya
-                  </p>
-                </div>
+        <div className="w-12/12 flex justify-center items-center overflow-hidden  h-[75vh] lg:h-auto dark:bg-gray-200 bg-slate-300">
+          <picture className="special-image ml-10 lg:ml-60 mr-3  lg:px-4  lg:py-0 lg:p-0 w-full max-w-[150px] md:max-w-[200px] lg:max-w-[280px] active-hover h-auto transition-all duration-500">
+            <img
+              src="./gpib-bhaskara.jpg "
+              loading=" eager"
+              height={200}
+              width={250}
+              className=" mt-14 -ml-3 rounded-lg shadow-lg shadow-black"
+              draggable="false"
+              style={{ opacity: 1 }}
+            />
+          </picture>
+          <div className=" lg:w-8/12 w-60 ml-1 lg:ml-36 -mt-20 -mr-10  flex overflow-hidden  lg::h-min dark:bg-gray-500 bg-slate-600 ">
+            <div className="h-full p-60 -ml-44 lg:ml-16 lg:px-1 lg:pb-72 relative ">
+              <div className=" justify-start items-start  h-full relative">
+                <p className=" lg:text-5xl text-3xl mt-16 -ml-14 -mr-10 lg:mt-40 uppercase font-serif font-semibold text-white">
+                  GPIB Bhaskara Surabaya
+                </p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
         {/* --------------------------- Second Screen -------------------------- */}
         <section className="  ">
           <div className="min-h-screen flex flex-col items-center justify-center my-20">
             <div
-              className="text-4xl max-sm:text-3xl max-sm:text-center dark:text-gray-500 text-gray-700"
+              className="lg:text-4xl text-3xl -mt-14 lg:mt-0 text-center dark:text-gray-500 text-gray-700"
               data-aos="fade-down"
             >
               {content?.motto.title}
@@ -105,7 +102,7 @@ export default function Home({ language }) {
                 data-aos="zoom-in"
               />
               <div
-                className="mt-10 max-sm:mt-3"
+                className="lg:mt-10 mt-3"
                 data-aos="fade-up"
                 data-aos-delay="0"
               >
@@ -113,7 +110,7 @@ export default function Home({ language }) {
                   <p>Channel Youtube</p> <p>GPIB Bhaskara Surabaya</p>
                 </strong>
                 <iframe
-                  className="ml-40 max-sm:ml-12 mt-5 mb-12"
+                  className="lg:ml-40 ml-12 mt-5 mb-12 shadow-lg dark:shadow-black shadow-gray-400"
                   // data-aos="fade-up"
                   // data-aos-delay="0"
                   width="300"

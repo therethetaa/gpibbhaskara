@@ -28,22 +28,22 @@ export default function Fungsionaris({ language }) {
       )}
 
       <main className=" min-h-screen">
-        <div className="  md:w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto dark:bg-gray-200 bg-slate-300 ">
-          <picture className="special-image ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[200px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
+        <div className="w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto dark:bg-gray-200 bg-slate-300 ">
+          <picture className="special-image ml-4 lg:ml-20 md:px-4 md:py-0 lg:p-0 w-full max-w-[180px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
             <img
               src="./gpib-indonesia.png "
               loading=" eager"
-              height={600}
-              width={600}
-              className=" mt-10 rounded-md shadow-lg shadow-black"
+              // height={600}
+              // width={600}
+              className=" mt-10 ml-2 lg:ml-0 rounded-md shadow-lg shadow-black"
               draggable="false"
               style={{ opacity: 1 }}
             />
           </picture>
-          <div className=" md:w-8/12 ml-36 -mt-20  flex overflow-hidden  md:h-min dark:bg-gray-500 bg-slate-600 ">
-            <div className="h-full p-60 ml-16 md:px-1 md:pb-72 relative ">
+          <div className=" lg:w-8/12 w-12/12 ml-8 lg:ml-36 -mt-14 lg:-mt-16  flex overflow-hidden  md:h-min dark:bg-gray-500 bg-slate-600 ">
+            <div className="h-full p-60 -ml-60 lg:ml-16 md:px-1 md:pb-72 relative ">
               <div className=" justify-start items-start  h-full relative">
-                <p className=" text-5xl mr-10 mt-40 uppercase font-serif text-white ">
+                <p className="lg:text-5xl text-2xl mr-10 ml-2 lg:ml-0 mt-28 lg:mt-40 uppercase font-serif font-semibold text-white ">
                   Fungsionaris
                 </p>
               </div>
@@ -51,28 +51,8 @@ export default function Fungsionaris({ language }) {
           </div>
         </div>
 
-        {/* <div
-          className="min-h-screen bg-white bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('./gpib-indonesia.png')" }}
-        >
-          <div className="w-full absolute bottom-10 bg-zinc-900 bg-opacity-70 backdrop-blur-md text-left pb-10 pt-6 px-6 sm:px-12 md:rounded-r-full md:max-w-3xl md:pl-14 animate__animated animate__fadeIn">
-            <div className="text-7xl sm:text-7xl text-white font-semibold animate__animated animate__fadeInDown">
-              {content?.floating_card.title}
-            </div>
-          </div>
-        </div> */}
-
         {/* --------------------------- Second Screen -------------------------- */}
         <div className="min-h-screen flex flex-col items-center justify-center my-14">
-          {/* <div className="text-4xl text-gray-700" data-aos="fade-down">
-            {content?.motto.title}
-          </div>
-          <div
-            className="text-xm text-center text-gray-500 mx-10 animate__animated"
-            data-aos="fade-up"
-          >
-            {content?.motto.body}
-          </div> */}
           <div className="max-w-full mx-0">
             <CardContent
               title={content?.section_1?.title}

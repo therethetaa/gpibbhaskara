@@ -48,33 +48,33 @@ export const menuLink2 = [
 
 export const menuLink = [
   {
-    name: "Home",
+    name: "Beranda",
     nama: "Beranda",
     link: "/",
   },
   {
-    name: "Functionary",
+    name: "Fungsionaris",
     nama: "Fungsionaris",
     link: "fungsionaris",
   },
 
   {
-    name: "Information",
+    name: "Informasi",
     nama: "Informasi",
     link: "information",
   },
   {
-    name: "Church Profile",
+    name: "Profil Gereja",
     nama: "Profil Gereja",
     link: "about",
   },
   {
-    name: "Gallery",
+    name: "Galeri",
     nama: "Galeri",
     link: "galeri",
   },
   {
-    name: "Contact",
+    name: "Kontak",
     nama: "Kontak",
     link: "contact",
   },
@@ -208,19 +208,41 @@ export const Header = ({ cartCounter, language }) => {
               {/* <AiOutlineShoppingCart size={30}/> */}
             </div>
             <div>
-              {!menuOpen ? (
-                <AiOutlineMenu
-                  size="30"
-                  className="mr-4 sm:hidden cursor-pointer"
-                  style={{ color: "white" }}
-                  onClick={() => setMenuOpen(!menuOpen)}
-                />
+              {scrolled == true ? (
+                <div>
+                  {!menuOpen ? (
+                    <AiOutlineMenu
+                      size="30"
+                      className="mr-4 sm:hidden cursor-pointer"
+                      style={{ color: "black" }}
+                      onClick={() => setMenuOpen(!menuOpen)}
+                    />
+                  ) : (
+                    <AiOutlineClose
+                      size="30"
+                      className="mr-4 sm:hidden cursor-pointer"
+                      style={{ color: "black" }}
+                      onClick={() => setMenuOpen(!menuOpen)}
+                    />
+                  )}
+                </div>
               ) : (
-                <AiOutlineClose
-                  size="30"
-                  className="mr-4 sm:hidden cursor-pointer"
-                  onClick={() => setMenuOpen(!menuOpen)}
-                />
+                <div>
+                  {!menuOpen ? (
+                    <AiOutlineMenu
+                      size="30"
+                      className="mr-4 sm:hidden cursor-pointer"
+                      style={{ color: "white" }}
+                      onClick={() => setMenuOpen(!menuOpen)}
+                    />
+                  ) : (
+                    <AiOutlineClose
+                      size="30"
+                      className="mr-4 sm:hidden cursor-pointer"
+                      onClick={() => setMenuOpen(!menuOpen)}
+                    />
+                  )}
+                </div>
               )}
             </div>
           </div>
