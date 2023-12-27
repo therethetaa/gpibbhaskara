@@ -21,7 +21,7 @@ const PopupMenu = ({ open, setOpen }) => {
                 legacyBehavior
               >
                 <div
-                  className="w-full cursor-pointer py-1 text-xl text-gray-200 hover:text-gray-500 hover:border-wood-cream flex flex-col items-end"
+                  className="w-full cursor-pointer py-1 text-xl text-gray-200 hover:text-gray-500 flex flex-col items-end"
                   onClick={() => setOpen(false)}
                 >
                   <a className="px-4 uppercase">{menu.name}</a>

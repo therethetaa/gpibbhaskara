@@ -28,22 +28,22 @@ export default function UnitMisioner({ language }) {
         </Head>
       )}
       <main className="min-h-screen">
-        <div className="  md:w-12/12 max-sm:w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto dark:bg-gray-200 bg-slate-300 ">
-          <picture className="special-image max-sm:ml-3 ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[600px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
+        <div className=" w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto dark:bg-gray-200 bg-slate-300 ">
+          <picture className="special-image ml-3 lg:ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[600px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
             <img
               src="./img18.jpg "
               loading=" eager"
               height={600}
               width={600}
-              className=" mt-10 max-sm:ml-3 rounded-md shadow-lg shadow-black"
+              className=" mt-10 ml-3 lg:ml-0 rounded-md shadow-lg shadow-black"
               draggable="false"
               style={{ opacity: 1 }}
             />
           </picture>
-          <div className=" md:w-8/12 max-sm:ml-10 ml-36 -mt-9  flex overflow-hidden  md:h-min dark:bg-gray-500 bg-slate-600 ">
+          <div className=" md:w-8/12 ml-10 lg:ml-36 -mt-9  flex overflow-hidden  md:h-min dark:bg-gray-500 bg-slate-600 ">
             <div className="h-full p-60 ml-16 md:px-1 md:pb-72 relative ">
               <div className=" justify-start items-start  h-full relative">
-                <p className=" text-5xl max-sm:text-2xl max-sm:-ml-72 max-sm:mt-20 mr-10 mt-40 uppercase font-serif font-semibold text-white ">
+                <p className="lg:text-5xl text-2xl -ml-72 lg:ml-0 mt-20 mr-10 lg:mt-36 uppercase font-serif font-semibold text-white ">
                   Unit Misioner
                 </p>
               </div>
@@ -54,19 +54,19 @@ export default function UnitMisioner({ language }) {
         {/* --------------------------- Second Screen -------------------------- */}
         <div className="min-h-screen flex flex-col items-center justify-center my-14">
           <div
-            className="text-4xl dark:text-gray-600 text-gray-700 max-sm:-mt-20 -mt-32"
+            className="text-4xl dark:text-gray-600 text-gray-700 -mt-20 lg:-mt-32"
             data-aos="fade-down"
           >
             <b>{content?.motto.title}</b>
           </div>
           <div
-            className="text-xm text-center dark:text-gray-400 text-gray-500 mx-10 max-sm:ml-10 max-sm:mr-10 ml-48 mr-48 mt-2 animate__animated"
+            className="text-xm text-center dark:text-gray-400 text-gray-500 mx-10 ml-10 mr-10 lg:ml-48 lg:mr-48 mt-2 animate__animated"
             data-aos="fade-up"
           >
             {content?.motto.body}
           </div>
           <br></br>
-          <div className="text-4xl max-sm:text-3xl text-center dark:text-white text-gray-600 font-semibold mt-10">
+          <div className="lg:text-4xl text-3xl text-center dark:text-white text-gray-600 font-semibold mt-10">
             <p
               data-aos="fade-left"
               data-aos-delay="0"
@@ -77,7 +77,7 @@ export default function UnitMisioner({ language }) {
               <Link href="/pelkat-pa">
                 <div className="col" data-aos="fade-right" data-aos-delay="0">
                   <img
-                    className=" cursor-pointer max-sm:ml-3 -ml-5 hover"
+                    className=" cursor-pointer ml-3 lg:-ml-5 hover"
                     src="/pelkat-pa.png"
                     width={100}
                     height={100}
@@ -86,7 +86,7 @@ export default function UnitMisioner({ language }) {
               </Link>
               <Link href="/pelkat-pt">
                 <div
-                  className="-mt-28 ml-28 max-sm:ml-32 "
+                  className="-mt-28 lg:ml-28 ml-32 "
                   data-aos="fade-right"
                   data-aos-delay="0"
                 >
@@ -117,7 +117,7 @@ export default function UnitMisioner({ language }) {
               <div className="col mt-5">
                 <Link href="/pelkat-pkp">
                   <div
-                    className="-ml-8 max-sm:-ml-3"
+                    className="lg:-ml-8 -ml-3"
                     data-aos="fade-left"
                     data-aos-delay="0"
                   >
@@ -131,7 +131,7 @@ export default function UnitMisioner({ language }) {
                 </Link>
                 <Link href="/pelkat-pkb">
                   <div
-                    className="-mt-32 ml-24 max-sm:ml-28"
+                    className="-mt-32 lg:ml-24 ml-28"
                     data-aos="fade-left"
                     data-aos-delay="0"
                   >

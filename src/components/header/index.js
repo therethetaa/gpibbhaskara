@@ -154,7 +154,7 @@ export const Header = ({ cartCounter, language }) => {
         </div>
         <div className="flex items-center justify-between text-gray-300">
           {/* Logo */}
-          <div className="flex w-[100px] sm:w-full max-sm:ml-10 max-w-xs justify-center py-1">
+          <div className="flex w-[100px] sm:w-full ml-10 lg:ml-0 max-w-xs justify-center py-1">
             <Link href="/" passHref>
               <a className="h-[100%] pt-2">
                 <Image

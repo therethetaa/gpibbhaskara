@@ -8,7 +8,7 @@ const Footer = ({ language, setLanguage }) => {
   return (
     <>
       <div className="sm:flex bg-gray-200 selection:bg-neutral-700 gap-0 justify-between">
-        <div className="flex w-full sm:max-w-xs max-sm:-ml-40 justify-center items-center align-middle py-4">
+        <div className="flex w-full sm:max-w-xs -ml-40 lg:ml-0 justify-center items-center align-middle py-4">
           <Image
             src={`./logo-gpib-new.png`}
             alt="Logo"
@@ -17,8 +17,8 @@ const Footer = ({ language, setLanguage }) => {
           />
         </div>
         <div className="w-full md:flex justify-between">
-          <div className="flex flex-col gap-3 w-full justify-center items-center py-4 max-sm:ml-6 -ml-28">
-            <div className="flex flex-wrap gap-2 md:gap-5 mx-4 justify-evenly mt-2 max-sm:-mt-20 max-sm:text-sm">
+          <div className="flex flex-col gap-3 w-full justify-center items-center py-4 ml-6 lg:-ml-28">
+            <div className="flex flex-wrap gap-2 md:gap-5 mx-4 justify-evenly lg:mt-2 -mt-20 text-sm lg:text-md">
               {menuLink.map((item, key) => (
                 <Link key={key} href={item.link} passHref>
                   <a className="uppercase border-b border-transparent hover:border-b hover:border-black font-semibold text-gray-700">
@@ -28,7 +28,7 @@ const Footer = ({ language, setLanguage }) => {
               ))}
             </div>
             <div className="flex flex-wrap gap-2 justify-center items-center text-xs ">
-              <p className="px-4 md:px-0 text-slate-600 text-sm max-sm:text-xs text-center">
+              <p className="px-4 md:px-0 text-slate-600 lg:text-sm text-xs text-center">
                 © 2023 GPIB Bhaskara Surabaya. All Rights Reserved.
               </p>
               {/* {privacyLink.map((item, key) => (

@@ -27,22 +27,22 @@ export default function PelkatPa({ language }) {
         <link rel="icon" href="/pelkat-pa.png" />
       </Head>
       <main className="min-h-screen">
-        <div className="  md:w-12/12 max-sm:w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto bg-slate-300 ">
-          <picture className="special-image max-sm:ml-3 ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[600px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
+        <div className="w-12/12 flex justify-center items-center overflow-hidden h-[75vh] md:h-auto bg-slate-300 ">
+          <picture className="special-image ml-3 lg:ml-20  md:px-4 md:py-0 lg:p-0 w-full max-w-[600px] md:max-w-[200px] lg:max-w-[452px] active-hover h-auto transition-all duration-500">
             <img
               src="./img5.jpg "
               loading=" eager"
               height={600}
               width={600}
-              className=" mt-10 max-sm:ml-3 rounded-md shadow-lg shadow-black"
+              className=" mt-10 ml-3 lg:ml-0 rounded-md shadow-lg shadow-black"
               draggable="false"
               style={{ opacity: 1 }}
             />
           </picture>
-          <div className=" md:w-8/12 max-sm:ml-10 ml-36 -mt-16  flex overflow-hidden  md:h-min bg-slate-600 ">
+          <div className=" md:w-8/12 ml-10 lg:ml-36 -mt-16  flex overflow-hidden  md:h-min bg-slate-600 ">
             <div className="h-full p-60 ml-16 md:px-1 md:pb-72 relative ">
               <div className=" justify-start items-start  h-full relative">
-                <p className=" text-6xl max-sm:text-3xl max-sm:-ml-72 max-sm:mt-28 mr-10 mt-40 uppercase font-serif font-semibold text-white ">
+                <p className="lg:text-6xl text-3xl -ml-72 lg:ml-0 mt-28 mr-10 lg:mt-40 uppercase font-serif font-semibold text-white ">
                   Pelkat PA
                 </p>
               </div>
@@ -157,7 +157,7 @@ export default function PelkatPa({ language }) {
             <div className="text-lg text-center dark:text-gray-300 text-gray-800 mx-10 animate__animated">
               <strong>Channel Youtube Pelkat PA GPIB Bhaskra Surabaya </strong>
               <iframe
-                className="ml-80 mt-5 max-sm:ml-0"
+                className="lg:ml-80 mt-5 ml-0"
                 width="300"
                 height="200"
                 src="https://youtube.com/@PelkatPAGPIBBhaskara?si=zCL0nE-aQ0ZXXaDG"
